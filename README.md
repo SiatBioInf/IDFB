@@ -18,7 +18,7 @@ IDFB (Integration of Data From Bulk RNA Sequencing Platforms) is a deep learning
 ## Methodology
 1. **Data Collection**: Gathered RNA-seq data from multiple platforms including tumor cell lines and immune cells to construct multiple sets of pseudo-samples
 2. **Model Training**: Utilized GAN architecture to learn platform-invariant representations, the structure of which is shown in the figure below:
-   ![Model Architecture](https://github.com/IDFB/blob/main/model_architecture.jpg) 
+   ![Model Architecture](https://github.com/SiatBioInf/IDFB/blob/main/model_architecture.jpg)
 3. **Data Generation**: Generated integrated data with reduced platform effects
 4. **Evaluation**: 
    - Biological Conservation Metrics:
