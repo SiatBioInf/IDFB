@@ -39,29 +39,7 @@ The framework demonstrates robust performance in:
 - Maintaining biological information
 - Improving downstream analysis accuracy
 - Facilitating cross-platform data integration
-
-
-## Project Structure
-IDFB/
-├── Dataset/                        # Data directory
-│   ├── header.txt                  # Feature list
-│   ├── MSI/                        # MSI dataset
-│   ├── Lung_cancer/                # Lung cancer dataset
-│   ├── Survival/                   # Survival analysis dataset
-│   └── Cancertype/                 # Cancer type dataset
-├── src/                            # Source code
-│   ├── generate_pseudo_data.py     # Generate pseudo-samples
-│   ├── process_data.py             # Generate training sets and test sets
-│   ├── models.py                   # Model architecture
-│   ├── train.py                    # Training pipeline
-│   ├── integrate.py                # Data integration
-│   ├── cancertype_data_process.py  # Process the cancer type dataset
-│   ├── lungcancer_data_process.py  # Process the lung cancer dataset
-│   ├── msi_data_process.py         # Process the MSI dataset
-│   ├── survival_data_process.py    # Process the survival analysis dataset
-│   └── evaluate.py                 # Evaluation metrics
-└── saved_models/                   # Saved model checkpoints
-
+  
 
 ## Installation
 
