@@ -77,20 +77,20 @@ pip install -r requirements.txt
 ### 2. Generate Integrated Data
 Run the integration script with your task name:
 ```bash
-python src/integrate.py --task [your_task_folder_name]
+python src/integrate.py --task [task_folder_name]
 ```
 The integrated data will be saved as generated_data.csv in your task folder.
 
 ### 3. Evaluate Results
 Assess the quality of integration:
 ```bash
-python src/evaluate.py --task [your_task_folder_name]
+python src/evaluate.py --task [task_folder_name]
 ```
 This will output:
 - Biological conservation score
 - Platform mixing score
 
-Note: Replace [your_task_folder_name] with the name of your task directory created in step 1.
+Note: Replace [task_folder_name] with the name of your task directory created in step 1.
 
 
 ## Example
