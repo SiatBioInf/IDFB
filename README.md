@@ -96,9 +96,9 @@ Note: Replace [task_folder_name] with the name of your task directory created in
 ## Example
 ```bash
 # Generate integrated data
-python IDFB/integrate.py --task MSI
+python src/integrate.py --task MSI
 # Evaluate results
-python IDFB/evaluate.py --task MSI
+python src/evaluate.py --task MSI
 ```
 
 ## More
