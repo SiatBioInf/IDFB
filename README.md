@@ -95,6 +95,8 @@ Note: Replace [task_folder_name] with the name of your task directory created in
 
 ## Example
 ```bash
+# Prepare the data
+python src/msi_data_process.py
 # Generate integrated data
 python src/integrate.py --task MSI
 # Evaluate results
