@@ -270,9 +270,6 @@ def main(task):
     Args:
         task: 项目名称，可选值：MSI、Lung_cancer_subtybes、Survival_analysis、Cancertype
     """
-
-    task = 'Cancertype' #'Survival_analysis' #'Lung_cancer_subtybes' #'MSI'
-
     df_single = pd.read_csv(f'../Dataset/{task}/processed_data.csv')
     x_single = df_single.iloc[:, :-2]
     p = df_single.iloc[:, -2]
