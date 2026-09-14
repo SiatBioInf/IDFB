@@ -1,5 +1,0 @@
-# GPU PyTorch (CUDA 12.8) — install separately from the PyTorch index:
-#   pip install torch --index-url https://download.pytorch.org/whl/cu128
-#
-# Current environment uses:
-#   torch==2.11.0+cu128
